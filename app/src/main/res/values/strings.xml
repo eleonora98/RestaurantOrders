@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RestaurantOrders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_menu">Food menu</string>
+    <string name="orders">Orders</string>
+    <string name="order">Order</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="contact_us">Contact us</string>
+    <string name="home_text">Order for home fast and convenient!</string>
+    <string name="email">E-mail</string>
+    <string name="contact_name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="madeOrder">You can see your ordered item in your shopping card</string>
+    <string name="cancel">Cancel</string>
+    <string name="msg">Message</string>
+    <string name="title_activity_food_menu">FoodMenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

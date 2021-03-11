@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pizza_carbonara"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView" />
+    <TextView
+        android:id="@+id/tvSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/opacityGreen"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-light" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Само за:"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_alignRight="@id/imageView"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="100dp">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_alignRight="@id/imageView"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_price">
+        </ImageView>
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.90"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white">
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

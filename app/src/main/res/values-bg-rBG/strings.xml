@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RestaurantOrders</string>
+    <string name="orders">Поръчки</string>
+    <string name="order">Поръчай</string>
+    <string name="restaurants">Ресторанти</string>
+    <string name="contact_us">Контакти</string>
+    <string name="food_menu">Меню</string>
+    <string name="home_text">Поръчай за дома бързо и удобно!</string>
+    <string name="email">E-mail</string>
+    <string name="contact_name">Име</string>
+    <string name="phone_number">Телефон</string>
+    <string name="madeOrder">Можете да видите направената поръчка във вашата количка</string>
+    <string name="cancel">Откажи</string>
+</resources>
